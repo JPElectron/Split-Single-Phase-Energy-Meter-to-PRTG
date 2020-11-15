@@ -4,7 +4,13 @@ Allows CircuitSetup's ATM90E32 Split Single Phase Energy Meter to be graphed in 
 
 Sure there's lots of other ways to graph data from the Energy Meter, but when your client loves Microsoft and everything has to run Windows, or you already have PRTG graphing everything else on the network - why not use PRTG to graph the energy usage too!
 
-Copy all files to the custom EXE sensor path, usually: C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXE
+Requires files to be placed in PRTG's custom EXE sensor path, usually: C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXE
+
+A) Copy all the .bat files there
+B) Copy the following CURL files there (you can get these at https://curl.haxx.se/windows/)
+ curl.exe
+ curl-ca-bundle.crt
+ libcurl-x64.dll
 
 1) Create a new device in PRTG with the IP of your ESP Energy Meter (should be given a DHCP reservation so it doesn't change)
 2) Add Sensor, Custom Sensors, EXE/Script
