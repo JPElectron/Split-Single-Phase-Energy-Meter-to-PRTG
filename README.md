@@ -7,12 +7,14 @@ Sure there's lots of other ways to graph data from the Energy Meter, but when yo
 Requires files to be placed in PRTG's custom EXE sensor path, usually: C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXE
 
 - Copy all the .bat files
+
     emonESP-CT1.bat
     emonESP-CT2.bat
     emonESP-TotalAmps.bat
     emonESP-TotalWatts.bat
 
 - Copy the following CURL files (you can get these at https://curl.haxx.se/windows/)
+
     curl.exe
     curl-ca-bundle.crt
     libcurl-x64.dll
