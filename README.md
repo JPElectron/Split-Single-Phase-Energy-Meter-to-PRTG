@@ -6,11 +6,16 @@ Sure there's lots of other ways to graph data from the Energy Meter, but when yo
 
 Requires files to be placed in PRTG's custom EXE sensor path, usually: C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXE
 
-1) Copy all the .bat files there
-2) Copy the following CURL files there (you can get these at https://curl.haxx.se/windows/)
- curl.exe
- curl-ca-bundle.crt
- libcurl-x64.dll
+- Copy all the .bat files
+    emonESP-CT1.bat
+    emonESP-CT2.bat
+    emonESP-TotalAmps.bat
+    emonESP-TotalWatts.bat
+
+- Copy the following CURL files (you can get these at https://curl.haxx.se/windows/)
+    curl.exe
+    curl-ca-bundle.crt
+    libcurl-x64.dll
 
 1) Create a new device in PRTG with the IP of your ESP Energy Meter (should be given a DHCP reservation so it doesn't change)
 2) Add Sensor, Custom Sensors, EXE/Script
