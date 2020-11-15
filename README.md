@@ -6,8 +6,8 @@ Sure there's lots of other ways to graph data from the Energy Meter, but when yo
 
 Requires files to be placed in PRTG's custom EXE sensor path, usually: C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXE
 
-A) Copy all the .bat files there
-B) Copy the following CURL files there (you can get these at https://curl.haxx.se/windows/)
+1) Copy all the .bat files there
+2) Copy the following CURL files there (you can get these at https://curl.haxx.se/windows/)
  curl.exe
  curl-ca-bundle.crt
  libcurl-x64.dll
