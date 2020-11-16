@@ -1,6 +1,7 @@
 # Split Single Phase Energy Meter to PRTG
 
-Allows CircuitSetup's ATM90E32 Split Single Phase Energy Meter to be graphed in PRTG
+Allows CircuitSetup's ATM90E32 Split Single Phase Energy Meter (see https://github.com/CircuitSetup/Split-Single-Phase-Energy-Meter) 
+to be graphed in PRTG (see https://www.paessler.com/prtg)
 
 Sure there's lots of other ways to graph data from the Energy Meter, but when your client loves Microsoft and everything has to run Windows, or you already have PRTG graphing everything else on the network - why not use PRTG to graph the energy usage too!
 
@@ -27,3 +28,5 @@ Requires files to be placed in PRTG's custom EXE sensor path, usually: C:\Progra
 6) Mutex Name: emonESP
 7) Value Type: Float
 8) Scanning Interval: 30sec to 1min
+
+[End of Line]
